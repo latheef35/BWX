@@ -1,0 +1,33 @@
+{
+	"DOMAIN": {
+		"action": {
+			"install": "No",
+			"config_bwagent": "NO",
+			"validate_server": "NO",
+			"config_teaagent": "Yes"
+		},
+		"property": {
+			"baseversion" : "6.5", 
+			"env": "Development",
+			"tibcouser": "/tibcos",
+			"tibcouser_home": "/tibcos",
+			"install_home": "/tibcos",
+			"product_to_install": ["rv_8.4.6","BW_6.5.1","hawk_6.1.0","tea_2.3.0","hkbw6_6.5.0","BW_6.5.1_HF-001","tea_2.3.0_HF-005","ems_8.3.0"],
+			"bin_source": "/utilities/Software/LNX-BW6/binaries",
+			"incremental_install_check": "yes",
+			"bwagentnetworkname": "Sandbox",
+			"membername": "",
+			"httpport": "18010",
+			"dbconnectionurl": "",
+			"dbuser": "TIBADM",
+			"dbpassword": "",
+			"emsserverurl": "",
+			"emsusername": "bwaadmin",
+			"emsuserpassword": "",
+			"registerteaagent": "yes",
+			"teaport": "18011",
+			"teaurl": "",
+			"emsport": "18012"
+		}
+	}
+}
